@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع محمد وديع </title>
+    <style>
+        body {
+            background-image: url('https://source.unsplash.com/1920x1080/?nature');
+            background-size: cover;
+            background-color: #FFFFFF; /* لون خلفية الصفحة */
+            color: #000000; /* لون النص */
+            font-family: Arial, sans-serif; /* نوع الخط */
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            right: 0;
+            background-color: #FFFFFF; /* لون خلفية القائمة */
+            padding: 10px 20px;
+            font-size: 24px;
+            width: 100%;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: flex-end;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        .welcome-message {
+            text-align: center;
+            font-size: 36px;
+            margin-top: 150px;
+        }
+
+        .welcome-message p {
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            background-color: #423C3D;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 24px;
+            width: fit-content;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="menu">
+            <ul>
+                <li><a href="https://www.medogamer.com/">الخلفية </a></li>
+            </ul>
+            <ul>
+                <li><a href="https://www.alhurra.com/latest/2019/10/01/%D9%84%D8%A7-%D9%81%D8%A7%D8%A6%D8%AF%D8%A9-%D9%85%D9%86%D9%8A">مقالات</a></li>
+                <li><a href="https://www.facebook.com/mohamad.rai.716?mibextid=ZbWKwL">تواصل معنا</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="welcome-message">
+        <p>اضغط الزر بالاسفل لتحميل التطبيق </p>
+        <button class="button" onclick="window.location.href='https://www.mediafire.com/file/8rr0d9euzzrua7k/ZArchiver.7z/file'">اضغط هنا لتحميل البرنامج</button>
+    </div>
+</body>
+</html>
